@@ -1,0 +1,43 @@
+@use "variable" as v;
+.nav-container{
+    width: 100%;
+    height: 90px;
+    // background-color: yellowgreen
+    ;
+  
+  nav{
+    // background-color: yellow;
+    height: 90px;
+    border-bottom: solid 2px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    
+  
+    
+    .logo{
+        width: 150px;
+        height: 50px;
+        // background-color: chocolate;
+    }
+  
+    .links{
+        // background-color: darkgoldenrod;
+        max-width: 400px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+  
+     a{
+        text-decoration: none;
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+     }   
+    }
+  }
+  }
+

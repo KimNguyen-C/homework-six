@@ -1,0 +1,25 @@
+@use "variable" as v;
+.tour-head{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    background-color: hotpink;
+    background-image:  linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../images/tours-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    div{
+        // background-color: salmon;
+        font-family: "proxima-nova", sans-serif;
+        font-size: 60px;
+        color: white;
+        margin: auto;
+    }
+
+
+    
+
+}

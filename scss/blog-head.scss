@@ -1,0 +1,36 @@
+.blog-head{
+    height: 413px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    background-color: black;
+
+    .starting p{
+        font-family: "proxima-nova", sans-serif;
+        font-size: 30px;
+        color: white;
+        position: absolute;
+        right: 0;
+        margin-top: 380px;
+    }
+    
+    img{
+        height: 413px;
+        width: 100%;
+        object-fit: cover;
+        // background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
+        opacity: 0.5;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .text-header{
+        font-family: "proxima-nova", sans-serif;
+        font-size: 80px;
+        color: white;
+        position: absolute;
+        left: 0;
+    }
+}
