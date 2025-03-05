@@ -2,6 +2,4 @@
 
 ## This is an h2
 
-### This is an h3
-
-This project is cool.
+### Web4: https://in-info-web4.luddy.indianapolis.iu.edu/~kimhnguy/homework-six/
